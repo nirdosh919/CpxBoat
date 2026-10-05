@@ -1,0 +1,882 @@
+.contact-page main section:first-of-type h1,
+.integrations-page main section:first-of-type h1 {
+  width: auto !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  white-space: normal !important;
+  font-size: clamp(2.5rem, 4.2vw, 3.75rem) !important;
+  line-height: 1.08 !important;
+  letter-spacing: -0.045em !important;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+
+.contact-page main section:first-of-type h1 span,
+.integrations-page main section:first-of-type h1 span {
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+}
+
+html:not(.light-theme) .login-page [class*="bg-emerald-600"] {
+  background: #087432 !important;
+  color: #ffffff !important;
+}
+
+html:not(.light-theme) .login-page [class*="bg-emerald-50"] {
+  background: #eaf7ef !important;
+  color: #0b7a37 !important;
+}
+
+.contact-page main section:first-of-type h1 {
+  max-width: 780px !important;
+}
+
+.contact-page .contact-info-card h2 {
+  font-size: 1.125rem !important;
+  line-height: 1.4 !important;
+  letter-spacing: -0.02em !important;
+}
+
+.contact-page .contact-phone-number {
+  color: #182237 !important;
+}
+
+.contact-page .contact-address {
+  color: #354258 !important;
+  text-decoration: none;
+}
+
+.contact-page .contact-phone-note {
+  color: #657084 !important;
+}
+
+.contact-page .contact-social-link {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 9px;
+  border: 1px solid #e1e6ec;
+  border-radius: 12px;
+  background: #f5f7fb;
+  padding: 0 14px;
+  color: #354258 !important;
+  text-decoration: none;
+  transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+}
+
+.contact-page .contact-social-link:hover {
+  border-color: #0b7a37;
+  background: #eaf7ef;
+  color: #087432 !important;
+}
+
+.contact-page .contact-pinterest-mark {
+  display: grid;
+  width: 19px;
+  height: 19px;
+  place-items: center;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.contact-page .contact-social-note {
+  margin: 16px 0 0;
+  color: #657084;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.contact-page h2 {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-inline: 0 !important;
+}
+
+.integrations-page h2,
+.pricing-page h2,
+.solutions-page h2 {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-inline: 0 !important;
+  min-width: 0;
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+}
+
+.integrations-page main section > div > div {
+  min-width: 0;
+}
+
+.contact-page h3 {
+  color: #182237 !important;
+}
+
+.contact-page label {
+  color: #354258 !important;
+}
+
+.contact-page .contact-info-card a,
+.contact-page .contact-form-panel a {
+  color: #0b7a37 !important;
+}
+
+.contact-page .contact-form-panel h2 {
+  font-size: clamp(1.5rem, 2.5vw, 1.875rem) !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.035em !important;
+}
+
+.integrations-page main h2 {
+  font-size: clamp(1.75rem, 3vw, 2.25rem) !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.035em !important;
+}
+
+.integrations-page [data-integration-card] h2 {
+  font-size: 1.125rem !important;
+  line-height: 1.4 !important;
+  letter-spacing: -0.02em !important;
+}
+
+.contact-page,
+.integrations-page {
+  background: #f5f7fb !important;
+  color: #182237 !important;
+}
+
+.contact-page [class~="bg-[#050816]"],
+.integrations-page [class~="bg-[#050816]"] {
+  background: rgba(255, 255, 255, 0.92) !important;
+}
+
+.contact-page [class~="bg-[#080c1d]"],
+.integrations-page [class~="bg-[#080c1d]"],
+.contact-page [class*="bg-white/"],
+.integrations-page [class*="bg-white/"] {
+  background: #ffffff !important;
+}
+
+.contact-page [class*="border-white/"],
+.integrations-page [class*="border-white/"] {
+  border-color: #e1e6ec !important;
+}
+
+.contact-page [class~="text-white"],
+.integrations-page [class~="text-white"],
+.contact-page [class*="text-slate-300"],
+.integrations-page [class*="text-slate-300"] {
+  color: #182237 !important;
+}
+
+.contact-page [class*="text-slate-400"],
+.integrations-page [class*="text-slate-400"],
+.contact-page [class*="text-slate-500"],
+.integrations-page [class*="text-slate-500"],
+.contact-page [class*="text-slate-600"],
+.integrations-page [class*="text-slate-600"] {
+  color: #657084 !important;
+}
+
+.contact-page [class*="text-cyan-"],
+.integrations-page [class*="text-cyan-"],
+.contact-page [class*="text-blue-"],
+.integrations-page [class*="text-blue-"],
+.contact-page [class*="text-violet-"],
+.integrations-page [class*="text-violet-"] {
+  color: #0b7a37 !important;
+}
+
+.contact-page [class~="bg-cyan-400"],
+.integrations-page [class~="bg-cyan-400"] {
+  background: #087432 !important;
+  color: #ffffff !important;
+}
+
+.contact-page [class*="bg-cyan-"]:not([class~="bg-cyan-400"]),
+.integrations-page [class*="bg-cyan-"]:not([class~="bg-cyan-400"]),
+.contact-page [class*="bg-blue-"],
+.integrations-page [class*="bg-blue-"],
+.contact-page [class*="bg-violet-"],
+.integrations-page [class*="bg-violet-"] {
+  background-color: #eaf7ef !important;
+}
+
+.contact-page [class*="border-cyan-"],
+.integrations-page [class*="border-cyan-"],
+.contact-page [class*="border-blue-"],
+.integrations-page [class*="border-blue-"],
+.contact-page [class*="border-violet-"],
+.integrations-page [class*="border-violet-"] {
+  border-color: #cce9d7 !important;
+}
+
+.contact-page main section:first-of-type h1 span,
+.integrations-page main section:first-of-type h1 span {
+  background: none !important;
+  background-clip: border-box !important;
+  color: #0b7a37 !important;
+  -webkit-text-fill-color: #0b7a37 !important;
+}
+
+.contact-page input,
+.contact-page select,
+.contact-page textarea {
+  border-color: #e1e6ec !important;
+  background-color: #ffffff !important;
+  color: #182237 !important;
+}
+
+.contact-page input::placeholder,
+.contact-page textarea::placeholder {
+  color: #8490a1 !important;
+}
+
+.contact-page select option {
+  background: #ffffff;
+  color: #182237;
+}
+
+.integrations-page [data-integration-step] p:first-child,
+.integrations-page [data-integration-visual] > div > div:first-child p:first-child {
+  color: #182237 !important;
+}
+
+.integrations-page [data-integration-step] p:last-child,
+.integrations-page [data-integration-visual] > div > div:first-child p:last-child {
+  color: #657084 !important;
+}
+
+.contact-page footer,
+.integrations-page footer {
+  color: #536075 !important;
+}
+
+.pricing-page main section:first-of-type h1,
+.solutions-page main section:first-of-type h1 {
+  width: auto !important;
+  max-width: 900px !important;
+  padding: 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  white-space: normal !important;
+  font-size: clamp(2.25rem, 5vw, 3.75rem) !important;
+  line-height: 1.1 !important;
+  letter-spacing: -0.045em !important;
+  text-wrap: balance;
+}
+
+.pricing-page main section:first-of-type h1 span,
+.solutions-page main section:first-of-type h1 span {
+  display: block;
+}
+
+.pricing-page .text-slate-500,
+.solutions-page .text-slate-500 {
+  color: #aab7ca !important;
+}
+
+.pricing-page .text-slate-400,
+.solutions-page .text-slate-400 {
+  color: #c2ccda !important;
+}
+
+.pricing-page .text-slate-300,
+.solutions-page .text-slate-300 {
+  color: #dbe3ed !important;
+}
+
+.pricing-page .text-cyan-300,
+.solutions-page .text-cyan-300,
+.pricing-page .text-cyan-400,
+.solutions-page .text-cyan-400 {
+  color: #82e6b0 !important;
+}
+
+.pricing-page a.bg-cyan-400,
+.pricing-page .bg-cyan-400.text-black {
+  background: linear-gradient(135deg, #0b7838, #087432) !important;
+  color: #ffffff !important;
+}
+
+.login-page {
+  color: #182237 !important;
+}
+
+.login-page h1,
+.login-page p,
+.login-page a {
+  color: inherit;
+}
+
+.login-page p.text-slate-500 {
+  color: #536075 !important;
+}
+
+.login-page a.text-slate-600 {
+  color: #354258 !important;
+}
+
+.login-page [class*="text-emerald-"] {
+  color: #0b7a37 !important;
+}
+
+.contact-page h3 {
+  color: #182237 !important;
+}
+
+.contact-page label {
+  color: #354258 !important;
+}
+
+.contact-page .contact-info-card a,
+.contact-page .contact-form-panel a {
+  color: #0b7a37 !important;
+}
+
+.integrations-page [data-integration-step] p:first-child,
+.integrations-page [data-integration-visual] > div > div:first-child p:first-child {
+  color: #182237 !important;
+}
+
+.integrations-page [data-integration-step] p:last-child,
+.integrations-page [data-integration-visual] > div > div:first-child p:last-child {
+  color: #657084 !important;
+}
+
+.contact-page footer,
+.integrations-page footer {
+  color: #536075 !important;
+}
+
+.pricing-page main section:first-of-type h1,
+.solutions-page main section:first-of-type h1 {
+  width: auto !important;
+  max-width: 900px !important;
+  padding: 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  white-space: normal !important;
+  font-size: clamp(2.25rem, 5vw, 3.75rem) !important;
+  line-height: 1.1 !important;
+  letter-spacing: -0.045em !important;
+  text-wrap: balance;
+}
+
+.pricing-page main section:first-of-type h1 span,
+.solutions-page main section:first-of-type h1 span {
+  display: block;
+}
+
+.pricing-page .text-slate-500,
+.solutions-page .text-slate-500 {
+  color: #aab7ca !important;
+}
+
+.pricing-page .text-slate-400,
+.solutions-page .text-slate-400 {
+  color: #c2ccda !important;
+}
+
+.pricing-page .text-slate-300,
+.solutions-page .text-slate-300 {
+  color: #dbe3ed !important;
+}
+
+.pricing-page .text-cyan-300,
+.solutions-page .text-cyan-300,
+.pricing-page .text-cyan-400,
+.solutions-page .text-cyan-400 {
+  color: #82e6b0 !important;
+}
+
+html:not(.light-theme) .pricing-page a.bg-cyan-400,
+html:not(.light-theme) .pricing-page .bg-cyan-400.text-black {
+  background: linear-gradient(135deg, #0b7838, #087432) !important;
+  color: #ffffff !important;
+}
+
+.login-page {
+  color: #182237 !important;
+}
+
+.login-page h1 {
+  font-size: 1.75rem !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.035em !important;
+}
+
+.login-page [class*="bg-emerald-600"] {
+  background: #087432 !important;
+  color: #ffffff !important;
+}
+
+.login-page [class*="bg-emerald-50"] {
+  background: #eaf7ef !important;
+  color: #0b7a37 !important;
+}
+
+.login-page h1,
+.login-page p,
+.login-page a {
+  color: inherit;
+}
+
+.login-page p.text-slate-500 {
+  color: #536075 !important;
+}
+
+.login-page a.text-slate-600 {
+  color: #354258 !important;
+}
+
+.cpx-site .site-header {
+  background: rgba(255, 255, 255, 0.94) !important;
+  color: #182237 !important;
+  border-color: #e1e6ec !important;
+}
+
+.cpx-site .site-header > .site-nav {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.cpx-site .site-header a,
+.cpx-site .site-header .nav-links {
+  color: #46546a !important;
+}
+
+.cpx-site .site-header a:hover {
+  color: #0b7a37 !important;
+}
+
+.cpx-site .site-header .brand {
+  color: #182237 !important;
+}
+
+.cpx-site .site-header .button-primary {
+  color: #ffffff !important;
+}
+
+.cpx-site .menu-toggle {
+  border-color: #d5dde7 !important;
+  background: #ffffff !important;
+  color: #354258 !important;
+}
+
+.cpx-site .nav-links.is-open {
+  background: #ffffff !important;
+  border-color: #e1e6ec !important;
+}
+
+.features-page .fp-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.features-page .fp-brand,
+.features-page .fp-back-link {
+  color: #354258 !important;
+}
+
+.features-page .fp-header {
+  background: rgba(255, 255, 255, 0.96) !important;
+  color: #182237 !important;
+}
+
+.features-page .fp-button-primary {
+  background: linear-gradient(135deg, #0b7838, #087432) !important;
+}
+
+.features-page .fp-section-title span,
+.features-page .fp-hero-title span,
+.contact-page main section:first-of-type h1 span,
+.integrations-page main section:first-of-type h1 span {
+  color: #0b7a37 !important;
+  -webkit-text-fill-color: #0b7a37 !important;
+}
+
+.contact-page [class~="bg-cyan-400"],
+.integrations-page [class~="bg-cyan-400"] {
+  background: #087432 !important;
+  color: #ffffff !important;
+}
+
+.contact-page [class*="text-cyan-"],
+.integrations-page [class*="text-cyan-"],
+.contact-page [class*="text-blue-"],
+.integrations-page [class*="text-blue-"],
+.contact-page [class*="text-violet-"],
+.integrations-page [class*="text-violet-"] {
+  color: #0b7a37 !important;
+}
+
+.contact-page > header,
+.integrations-page > header,
+.pricing-page > header,
+.solutions-page > header,
+.features-page .fp-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+html:has(.cpx-site) body,
+html:has(.contact-page) body,
+html:has(.integrations-page) body,
+html:has(.pricing-page) body,
+html:has(.solutions-page) body,
+html:has(.login-page) body {
+  min-width: 0 !important;
+}
+
+html:not(.light-theme) .contact-page,
+html:not(.light-theme) .integrations-page {
+  background: #f5f7fb !important;
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .contact-page [class*="bg-[#050816]"],
+html:not(.light-theme) .integrations-page [class*="bg-[#050816]"] {
+  background: rgba(255, 255, 255, 0.92) !important;
+}
+
+html:not(.light-theme) .contact-page [class*="bg-[#080c1d]"],
+html:not(.light-theme) .integrations-page [class*="bg-[#080c1d]"],
+html:not(.light-theme) .contact-page [class*="bg-white/"],
+html:not(.light-theme) .integrations-page [class*="bg-white/"] {
+  background: #ffffff !important;
+}
+
+html:not(.light-theme) .contact-page header,
+html:not(.light-theme) .integrations-page header,
+html:not(.light-theme) .contact-page footer,
+html:not(.light-theme) .integrations-page footer {
+  background: rgba(255, 255, 255, 0.94) !important;
+  color: #182237 !important;
+  border-color: #e1e6ec !important;
+  box-shadow: 0 8px 24px rgba(24, 34, 55, 0.06) !important;
+}
+
+html:not(.light-theme) .contact-page header > div,
+html:not(.light-theme) .integrations-page header > div {
+  background: rgba(255, 255, 255, 0.96) !important;
+  border-color: #e1e6ec !important;
+  box-shadow: 0 8px 24px rgba(24, 34, 55, 0.06) !important;
+}
+
+html:not(.light-theme) .contact-page header a,
+html:not(.light-theme) .integrations-page header a {
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .contact-page h3 {
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .contact-page label {
+  color: #354258 !important;
+}
+
+html:not(.light-theme) .contact-page .contact-info-card a,
+html:not(.light-theme) .contact-page .contact-form-panel a {
+  color: #0b7a37 !important;
+}
+
+html:not(.light-theme) .contact-page h3 {
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .contact-page label {
+  color: #354258 !important;
+}
+
+html:not(.light-theme) .contact-page .contact-info-card a,
+html:not(.light-theme) .contact-page .contact-form-panel a {
+  color: #0b7a37 !important;
+}
+
+html:not(.light-theme) .contact-page .contact-info-card,
+html:not(.light-theme) .contact-page .contact-form-panel,
+html:not(.light-theme) .integrations-page [data-integration-card],
+html:not(.light-theme) .integrations-page [data-integration-visual],
+html:not(.light-theme) .integrations-page [data-integration-step] {
+  background: #ffffff !important;
+  color: #182237 !important;
+  border-color: #e1e6ec !important;
+  box-shadow: 0 12px 32px rgba(24, 34, 55, 0.07) !important;
+}
+
+html:not(.light-theme) .contact-page [class*="text-white"],
+html:not(.light-theme) .integrations-page [class*="text-white"],
+html:not(.light-theme) .contact-page [class*="text-slate-300"],
+html:not(.light-theme) .integrations-page [class*="text-slate-300"] {
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .contact-page [class*="text-slate-400"],
+html:not(.light-theme) .integrations-page [class*="text-slate-400"],
+html:not(.light-theme) .contact-page [class*="text-slate-500"],
+html:not(.light-theme) .integrations-page [class*="text-slate-500"],
+html:not(.light-theme) .contact-page [class*="text-slate-600"],
+html:not(.light-theme) .integrations-page [class*="text-slate-600"] {
+  color: #657084 !important;
+}
+
+html:not(.light-theme) .contact-page [class*="text-cyan-"],
+html:not(.light-theme) .integrations-page [class*="text-cyan-"],
+html:not(.light-theme) .contact-page [class*="text-blue-"],
+html:not(.light-theme) .integrations-page [class*="text-blue-"],
+html:not(.light-theme) .contact-page [class*="text-violet-"],
+html:not(.light-theme) .integrations-page [class*="text-violet-"] {
+  color: #0b7a37 !important;
+}
+
+html:not(.light-theme) .contact-page [class~="bg-cyan-400"],
+html:not(.light-theme) .integrations-page [class~="bg-cyan-400"] {
+  background: linear-gradient(135deg, #0b7838, #087432) !important;
+  color: #ffffff !important;
+  border-color: #087432 !important;
+  box-shadow: 0 7px 18px rgba(18, 164, 75, 0.2) !important;
+}
+
+html:not(.light-theme) .contact-page [class*="bg-cyan-"]:not([class~="bg-cyan-400"]),
+html:not(.light-theme) .integrations-page [class*="bg-cyan-"]:not([class~="bg-cyan-400"]),
+html:not(.light-theme) .contact-page [class*="bg-blue-"],
+html:not(.light-theme) .integrations-page [class*="bg-blue-"],
+html:not(.light-theme) .contact-page [class*="bg-violet-"],
+html:not(.light-theme) .integrations-page [class*="bg-violet-"] {
+  background-color: #eaf7ef !important;
+}
+
+html:not(.light-theme) .integrations-page [data-integration-step] p:first-child,
+html:not(.light-theme) .integrations-page [data-integration-visual] > div > div:first-child p:first-child {
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .integrations-page [data-integration-step] p:last-child,
+html:not(.light-theme) .integrations-page [data-integration-visual] > div > div:first-child p:last-child {
+  color: #657084 !important;
+}
+
+html:not(.light-theme) .contact-page footer,
+html:not(.light-theme) .integrations-page footer {
+  color: #536075 !important;
+}
+
+html:not(.light-theme) .pricing-page main section:first-of-type h1,
+html:not(.light-theme) .solutions-page main section:first-of-type h1 {
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+}
+
+html:not(.light-theme) .pricing-page .text-slate-500,
+html:not(.light-theme) .solutions-page .text-slate-500 {
+  color: #aab7ca !important;
+}
+
+html:not(.light-theme) .pricing-page .text-slate-400,
+html:not(.light-theme) .solutions-page .text-slate-400 {
+  color: #c2ccda !important;
+}
+
+html:not(.light-theme) .pricing-page .text-slate-300,
+html:not(.light-theme) .solutions-page .text-slate-300 {
+  color: #dbe3ed !important;
+}
+
+html:not(.light-theme) .pricing-page .text-cyan-300,
+html:not(.light-theme) .solutions-page .text-cyan-300,
+html:not(.light-theme) .pricing-page .text-cyan-400,
+html:not(.light-theme) .solutions-page .text-cyan-400 {
+  color: #82e6b0 !important;
+}
+
+html:not(.light-theme) .contact-page [class*="border-white/"],
+html:not(.light-theme) .integrations-page [class*="border-white/"],
+html:not(.light-theme) .contact-page [class*="border-cyan-"],
+html:not(.light-theme) .integrations-page [class*="border-cyan-"],
+html:not(.light-theme) .contact-page [class*="border-blue-"],
+html:not(.light-theme) .integrations-page [class*="border-blue-"],
+html:not(.light-theme) .contact-page [class*="border-violet-"],
+html:not(.light-theme) .integrations-page [class*="border-violet-"] {
+  border-color: #cce9d7 !important;
+}
+
+html:not(.light-theme) .contact-page main section:first-of-type h1 span,
+html:not(.light-theme) .integrations-page main section:first-of-type h1 span {
+  background: none !important;
+  background-clip: border-box !important;
+  color: #0b7a37 !important;
+  -webkit-text-fill-color: #0b7a37 !important;
+}
+
+html:not(.light-theme) .contact-page main section:first-of-type h1,
+html:not(.light-theme) .integrations-page main section:first-of-type h1 {
+  width: auto !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+}
+
+html:not(.light-theme) .contact-page input,
+html:not(.light-theme) .contact-page select,
+html:not(.light-theme) .contact-page textarea {
+  border-color: #e1e6ec !important;
+  background-color: #ffffff !important;
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .contact-page input::placeholder,
+html:not(.light-theme) .contact-page textarea::placeholder {
+  color: #8490a1 !important;
+}
+
+html:not(.light-theme) .integrations-page [data-integration-step] p:first-child,
+html:not(.light-theme) .integrations-page [data-integration-visual] > div > div:first-child p:first-child {
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .integrations-page [data-integration-step] p:last-child,
+html:not(.light-theme) .integrations-page [data-integration-visual] > div > div:first-child p:last-child {
+  color: #657084 !important;
+}
+
+html:not(.light-theme) .pricing-page main section:first-of-type h1,
+html:not(.light-theme) .solutions-page main section:first-of-type h1 {
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+}
+
+html:not(.light-theme) .pricing-page .text-slate-500,
+html:not(.light-theme) .solutions-page .text-slate-500 {
+  color: #aab7ca !important;
+}
+
+html:not(.light-theme) .pricing-page .text-slate-400,
+html:not(.light-theme) .solutions-page .text-slate-400 {
+  color: #c2ccda !important;
+}
+
+html:not(.light-theme) .pricing-page .text-slate-300,
+html:not(.light-theme) .solutions-page .text-slate-300 {
+  color: #dbe3ed !important;
+}
+
+html:not(.light-theme) .pricing-page .text-cyan-300,
+html:not(.light-theme) .solutions-page .text-cyan-300,
+html:not(.light-theme) .pricing-page .text-cyan-400,
+html:not(.light-theme) .solutions-page .text-cyan-400 {
+  color: #82e6b0 !important;
+}
+
+html:not(.light-theme) .login-page {
+  background: #f5f7fb !important;
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .login-page h1 {
+  font-size: 1.75rem !important;
+  line-height: 1.2 !important;
+}
+
+html:not(.light-theme) .login-page > div {
+  background: #ffffff !important;
+  border-color: #e1e6ec !important;
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .login-page h1,
+html:not(.light-theme) .login-page p,
+html:not(.light-theme) .login-page a:not([class*="bg-"]) {
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .login-page p.text-slate-500 {
+  color: #536075 !important;
+}
+
+html:not(.light-theme) .login-page a.text-slate-600 {
+  color: #354258 !important;
+}
+
+html:not(.light-theme) .login-page [class*="text-emerald-"] {
+  color: #0b7a37 !important;
+}
+html:not(.light-theme) .cpx-site .site-header {
+  background: rgba(255, 255, 255, 0.94) !important;
+  color: #182237 !important;
+  border-color: #e1e6ec !important;
+}
+
+html:not(.light-theme) .cpx-site .site-header > .site-nav {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+html:not(.light-theme) .cpx-site .site-header a,
+html:not(.light-theme) .cpx-site .site-header .nav-links {
+  color: #46546a !important;
+}
+
+html:not(.light-theme) .cpx-site .site-header a:hover {
+  color: #0b7a37 !important;
+}
+
+html:not(.light-theme) .cpx-site .site-header .brand {
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .cpx-site .site-header .button-primary {
+  color: #ffffff !important;
+}
+
+html:not(.light-theme) .cpx-site .menu-toggle {
+  border-color: #d5dde7 !important;
+  background: #ffffff !important;
+  color: #354258 !important;
+}
+
+html:not(.light-theme) .cpx-site .nav-links.is-open {
+  background: #ffffff !important;
+  border-color: #e1e6ec !important;
+}
+
+html:not(.light-theme) .features-page .fp-header {
+  background: rgba(255, 255, 255, 0.96) !important;
+  color: #182237 !important;
+}
+
+html:not(.light-theme) .features-page .fp-brand,
+html:not(.light-theme) .features-page .fp-back-link {
+  color: #354258 !important;
+}
+
+@media (max-width: 600px) {
+  .contact-page main section:first-of-type h1,
+  .integrations-page main section:first-of-type h1 {
+    font-size: clamp(1.75rem, 8vw, 2.5rem) !important;
+    line-height: 1.12 !important;
+  }
+
+  .pricing-page main section:first-of-type h1,
+  .solutions-page main section:first-of-type h1 {
+    font-size: clamp(2rem, 8.5vw, 2.75rem) !important;
+    line-height: 1.12 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  html:not(.light-theme) .contact-page main section:first-of-type h1,
+  html:not(.light-theme) .integrations-page main section:first-of-type h1 {
+    font-size: clamp(1.75rem, 8vw, 2.5rem) !important;
+  }
+}
