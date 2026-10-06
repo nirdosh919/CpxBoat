@@ -527,6 +527,21 @@ html:not(.light-theme) .pricing-page .bg-cyan-400.text-black {
   z-index: 50;
 }
 
+.contact-page main,
+.integrations-page main,
+.pricing-page main,
+.solutions-page main {
+  text-align: center;
+}
+
+.solutions-page main [class~="text-left"] {
+  text-align: center !important;
+}
+
+.pricing-page main [class~="text-left"] {
+  text-align: center !important;
+}
+
 html:has(.cpx-site) body,
 html:has(.contact-page) body,
 html:has(.integrations-page) body,
@@ -536,137 +551,137 @@ html:has(.login-page) body {
   min-width: 0 !important;
 }
 
-html:not(.light-theme) .contact-page,
-html:not(.light-theme) .integrations-page {
+html.light-theme .contact-page,
+html.light-theme .integrations-page {
   background: #f5f7fb !important;
   color: #182237 !important;
 }
 
-html:not(.light-theme) .contact-page [class*="bg-[#050816]"],
-html:not(.light-theme) .integrations-page [class*="bg-[#050816]"] {
+html.light-theme .contact-page [class*="bg-[#050816]"],
+html.light-theme .integrations-page [class*="bg-[#050816]"] {
   background: rgba(255, 255, 255, 0.92) !important;
 }
 
-html:not(.light-theme) .contact-page [class*="bg-[#080c1d]"],
-html:not(.light-theme) .integrations-page [class*="bg-[#080c1d]"],
-html:not(.light-theme) .contact-page [class*="bg-white/"],
-html:not(.light-theme) .integrations-page [class*="bg-white/"] {
+html.light-theme .contact-page [class*="bg-[#080c1d]"],
+html.light-theme .integrations-page [class*="bg-[#080c1d]"],
+html.light-theme .contact-page [class*="bg-white/"],
+html.light-theme .integrations-page [class*="bg-white/"] {
   background: #ffffff !important;
 }
 
-html:not(.light-theme) .contact-page header,
-html:not(.light-theme) .integrations-page header,
-html:not(.light-theme) .contact-page footer,
-html:not(.light-theme) .integrations-page footer {
+html.light-theme .contact-page header,
+html.light-theme .integrations-page header,
+html.light-theme .contact-page footer,
+html.light-theme .integrations-page footer {
   background: rgba(255, 255, 255, 0.94) !important;
   color: #182237 !important;
   border-color: #e1e6ec !important;
   box-shadow: 0 8px 24px rgba(24, 34, 55, 0.06) !important;
 }
 
-html:not(.light-theme) .contact-page header > div,
-html:not(.light-theme) .integrations-page header > div {
+html.light-theme .contact-page header > div,
+html.light-theme .integrations-page header > div {
   background: rgba(255, 255, 255, 0.96) !important;
   border-color: #e1e6ec !important;
   box-shadow: 0 8px 24px rgba(24, 34, 55, 0.06) !important;
 }
 
-html:not(.light-theme) .contact-page header a,
-html:not(.light-theme) .integrations-page header a {
+html.light-theme .contact-page header a,
+html.light-theme .integrations-page header a {
   color: #182237 !important;
 }
 
-html:not(.light-theme) .contact-page h3 {
+html.light-theme .contact-page h3 {
   color: #182237 !important;
 }
 
-html:not(.light-theme) .contact-page label {
+html.light-theme .contact-page label {
   color: #354258 !important;
 }
 
-html:not(.light-theme) .contact-page .contact-info-card a,
-html:not(.light-theme) .contact-page .contact-form-panel a {
+html.light-theme .contact-page .contact-info-card a,
+html.light-theme .contact-page .contact-form-panel a {
   color: #0b7a37 !important;
 }
 
-html:not(.light-theme) .contact-page h3 {
+html.light-theme .contact-page h3 {
   color: #182237 !important;
 }
 
-html:not(.light-theme) .contact-page label {
+html.light-theme .contact-page label {
   color: #354258 !important;
 }
 
-html:not(.light-theme) .contact-page .contact-info-card a,
-html:not(.light-theme) .contact-page .contact-form-panel a {
+html.light-theme .contact-page .contact-info-card a,
+html.light-theme .contact-page .contact-form-panel a {
   color: #0b7a37 !important;
 }
 
-html:not(.light-theme) .contact-page .contact-info-card,
-html:not(.light-theme) .contact-page .contact-form-panel,
-html:not(.light-theme) .integrations-page [data-integration-card],
-html:not(.light-theme) .integrations-page [data-integration-visual],
-html:not(.light-theme) .integrations-page [data-integration-step] {
+html.light-theme .contact-page .contact-info-card,
+html.light-theme .contact-page .contact-form-panel,
+html.light-theme .integrations-page [data-integration-card],
+html.light-theme .integrations-page [data-integration-visual],
+html.light-theme .integrations-page [data-integration-step] {
   background: #ffffff !important;
   color: #182237 !important;
   border-color: #e1e6ec !important;
   box-shadow: 0 12px 32px rgba(24, 34, 55, 0.07) !important;
 }
 
-html:not(.light-theme) .contact-page [class*="text-white"],
-html:not(.light-theme) .integrations-page [class*="text-white"],
-html:not(.light-theme) .contact-page [class*="text-slate-300"],
-html:not(.light-theme) .integrations-page [class*="text-slate-300"] {
+html.light-theme .contact-page [class*="text-white"],
+html.light-theme .integrations-page [class*="text-white"],
+html.light-theme .contact-page [class*="text-slate-300"],
+html.light-theme .integrations-page [class*="text-slate-300"] {
   color: #182237 !important;
 }
 
-html:not(.light-theme) .contact-page [class*="text-slate-400"],
-html:not(.light-theme) .integrations-page [class*="text-slate-400"],
-html:not(.light-theme) .contact-page [class*="text-slate-500"],
-html:not(.light-theme) .integrations-page [class*="text-slate-500"],
-html:not(.light-theme) .contact-page [class*="text-slate-600"],
-html:not(.light-theme) .integrations-page [class*="text-slate-600"] {
+html.light-theme .contact-page [class*="text-slate-400"],
+html.light-theme .integrations-page [class*="text-slate-400"],
+html.light-theme .contact-page [class*="text-slate-500"],
+html.light-theme .integrations-page [class*="text-slate-500"],
+html.light-theme .contact-page [class*="text-slate-600"],
+html.light-theme .integrations-page [class*="text-slate-600"] {
   color: #657084 !important;
 }
 
-html:not(.light-theme) .contact-page [class*="text-cyan-"],
-html:not(.light-theme) .integrations-page [class*="text-cyan-"],
-html:not(.light-theme) .contact-page [class*="text-blue-"],
-html:not(.light-theme) .integrations-page [class*="text-blue-"],
-html:not(.light-theme) .contact-page [class*="text-violet-"],
-html:not(.light-theme) .integrations-page [class*="text-violet-"] {
+html.light-theme .contact-page [class*="text-cyan-"],
+html.light-theme .integrations-page [class*="text-cyan-"],
+html.light-theme .contact-page [class*="text-blue-"],
+html.light-theme .integrations-page [class*="text-blue-"],
+html.light-theme .contact-page [class*="text-violet-"],
+html.light-theme .integrations-page [class*="text-violet-"] {
   color: #0b7a37 !important;
 }
 
-html:not(.light-theme) .contact-page [class~="bg-cyan-400"],
-html:not(.light-theme) .integrations-page [class~="bg-cyan-400"] {
+html.light-theme .contact-page [class~="bg-cyan-400"],
+html.light-theme .integrations-page [class~="bg-cyan-400"] {
   background: linear-gradient(135deg, #0b7838, #087432) !important;
   color: #ffffff !important;
   border-color: #087432 !important;
   box-shadow: 0 7px 18px rgba(18, 164, 75, 0.2) !important;
 }
 
-html:not(.light-theme) .contact-page [class*="bg-cyan-"]:not([class~="bg-cyan-400"]),
-html:not(.light-theme) .integrations-page [class*="bg-cyan-"]:not([class~="bg-cyan-400"]),
-html:not(.light-theme) .contact-page [class*="bg-blue-"],
-html:not(.light-theme) .integrations-page [class*="bg-blue-"],
-html:not(.light-theme) .contact-page [class*="bg-violet-"],
-html:not(.light-theme) .integrations-page [class*="bg-violet-"] {
+html.light-theme .contact-page [class*="bg-cyan-"]:not([class~="bg-cyan-400"]),
+html.light-theme .integrations-page [class*="bg-cyan-"]:not([class~="bg-cyan-400"]),
+html.light-theme .contact-page [class*="bg-blue-"],
+html.light-theme .integrations-page [class*="bg-blue-"],
+html.light-theme .contact-page [class*="bg-violet-"],
+html.light-theme .integrations-page [class*="bg-violet-"] {
   background-color: #eaf7ef !important;
 }
 
-html:not(.light-theme) .integrations-page [data-integration-step] p:first-child,
-html:not(.light-theme) .integrations-page [data-integration-visual] > div > div:first-child p:first-child {
+html.light-theme .integrations-page [data-integration-step] p:first-child,
+html.light-theme .integrations-page [data-integration-visual] > div > div:first-child p:first-child {
   color: #182237 !important;
 }
 
-html:not(.light-theme) .integrations-page [data-integration-step] p:last-child,
-html:not(.light-theme) .integrations-page [data-integration-visual] > div > div:first-child p:last-child {
+html.light-theme .integrations-page [data-integration-step] p:last-child,
+html.light-theme .integrations-page [data-integration-visual] > div > div:first-child p:last-child {
   color: #657084 !important;
 }
 
-html:not(.light-theme) .contact-page footer,
-html:not(.light-theme) .integrations-page footer {
+html.light-theme .contact-page footer,
+html.light-theme .integrations-page footer {
   color: #536075 !important;
 }
 
@@ -698,27 +713,27 @@ html:not(.light-theme) .solutions-page .text-cyan-400 {
   color: #82e6b0 !important;
 }
 
-html:not(.light-theme) .contact-page [class*="border-white/"],
-html:not(.light-theme) .integrations-page [class*="border-white/"],
-html:not(.light-theme) .contact-page [class*="border-cyan-"],
-html:not(.light-theme) .integrations-page [class*="border-cyan-"],
-html:not(.light-theme) .contact-page [class*="border-blue-"],
-html:not(.light-theme) .integrations-page [class*="border-blue-"],
-html:not(.light-theme) .contact-page [class*="border-violet-"],
-html:not(.light-theme) .integrations-page [class*="border-violet-"] {
+html.light-theme .contact-page [class*="border-white/"],
+html.light-theme .integrations-page [class*="border-white/"],
+html.light-theme .contact-page [class*="border-cyan-"],
+html.light-theme .integrations-page [class*="border-cyan-"],
+html.light-theme .contact-page [class*="border-blue-"],
+html.light-theme .integrations-page [class*="border-blue-"],
+html.light-theme .contact-page [class*="border-violet-"],
+html.light-theme .integrations-page [class*="border-violet-"] {
   border-color: #cce9d7 !important;
 }
 
-html:not(.light-theme) .contact-page main section:first-of-type h1 span,
-html:not(.light-theme) .integrations-page main section:first-of-type h1 span {
+html.light-theme .contact-page main section:first-of-type h1 span,
+html.light-theme .integrations-page main section:first-of-type h1 span {
   background: none !important;
   background-clip: border-box !important;
   color: #0b7a37 !important;
   -webkit-text-fill-color: #0b7a37 !important;
 }
 
-html:not(.light-theme) .contact-page main section:first-of-type h1,
-html:not(.light-theme) .integrations-page main section:first-of-type h1 {
+html.light-theme .contact-page main section:first-of-type h1,
+html.light-theme .integrations-page main section:first-of-type h1 {
   width: auto !important;
   max-width: 100% !important;
   padding: 0 !important;
@@ -726,26 +741,26 @@ html:not(.light-theme) .integrations-page main section:first-of-type h1 {
   overflow-wrap: anywhere;
 }
 
-html:not(.light-theme) .contact-page input,
-html:not(.light-theme) .contact-page select,
-html:not(.light-theme) .contact-page textarea {
+html.light-theme .contact-page input,
+html.light-theme .contact-page select,
+html.light-theme .contact-page textarea {
   border-color: #e1e6ec !important;
   background-color: #ffffff !important;
   color: #182237 !important;
 }
 
-html:not(.light-theme) .contact-page input::placeholder,
-html:not(.light-theme) .contact-page textarea::placeholder {
+html.light-theme .contact-page input::placeholder,
+html.light-theme .contact-page textarea::placeholder {
   color: #8490a1 !important;
 }
 
-html:not(.light-theme) .integrations-page [data-integration-step] p:first-child,
-html:not(.light-theme) .integrations-page [data-integration-visual] > div > div:first-child p:first-child {
+html.light-theme .integrations-page [data-integration-step] p:first-child,
+html.light-theme .integrations-page [data-integration-visual] > div > div:first-child p:first-child {
   color: #182237 !important;
 }
 
-html:not(.light-theme) .integrations-page [data-integration-step] p:last-child,
-html:not(.light-theme) .integrations-page [data-integration-visual] > div > div:first-child p:last-child {
+html.light-theme .integrations-page [data-integration-step] p:last-child,
+html.light-theme .integrations-page [data-integration-visual] > div > div:first-child p:last-child {
   color: #657084 !important;
 }
 
@@ -810,53 +825,53 @@ html:not(.light-theme) .login-page a.text-slate-600 {
 html:not(.light-theme) .login-page [class*="text-emerald-"] {
   color: #0b7a37 !important;
 }
-html:not(.light-theme) .cpx-site .site-header {
+html.light-theme .cpx-site .site-header {
   background: rgba(255, 255, 255, 0.94) !important;
   color: #182237 !important;
   border-color: #e1e6ec !important;
 }
 
-html:not(.light-theme) .cpx-site .site-header > .site-nav {
+html.light-theme .cpx-site .site-header > .site-nav {
   background: transparent !important;
   border: 0 !important;
   box-shadow: none !important;
 }
 
-html:not(.light-theme) .cpx-site .site-header a,
-html:not(.light-theme) .cpx-site .site-header .nav-links {
+html.light-theme .cpx-site .site-header a,
+html.light-theme .cpx-site .site-header .nav-links {
   color: #46546a !important;
 }
 
-html:not(.light-theme) .cpx-site .site-header a:hover {
+html.light-theme .cpx-site .site-header a:hover {
   color: #0b7a37 !important;
 }
 
-html:not(.light-theme) .cpx-site .site-header .brand {
+html.light-theme .cpx-site .site-header .brand {
   color: #182237 !important;
 }
 
-html:not(.light-theme) .cpx-site .site-header .button-primary {
+html.light-theme .cpx-site .site-header .button-primary {
   color: #ffffff !important;
 }
 
-html:not(.light-theme) .cpx-site .menu-toggle {
+html.light-theme .cpx-site .menu-toggle {
   border-color: #d5dde7 !important;
   background: #ffffff !important;
   color: #354258 !important;
 }
 
-html:not(.light-theme) .cpx-site .nav-links.is-open {
+html.light-theme .cpx-site .nav-links.is-open {
   background: #ffffff !important;
   border-color: #e1e6ec !important;
 }
 
-html:not(.light-theme) .features-page .fp-header {
+html.light-theme .features-page .fp-header {
   background: rgba(255, 255, 255, 0.96) !important;
   color: #182237 !important;
 }
 
-html:not(.light-theme) .features-page .fp-brand,
-html:not(.light-theme) .features-page .fp-back-link {
+html.light-theme .features-page .fp-brand,
+html.light-theme .features-page .fp-back-link {
   color: #354258 !important;
 }
 
@@ -875,8 +890,8 @@ html:not(.light-theme) .features-page .fp-back-link {
 }
 
 @media (max-width: 600px) {
-  html:not(.light-theme) .contact-page main section:first-of-type h1,
-  html:not(.light-theme) .integrations-page main section:first-of-type h1 {
+  html.light-theme .contact-page main section:first-of-type h1,
+  html.light-theme .integrations-page main section:first-of-type h1 {
     font-size: clamp(1.75rem, 8vw, 2.5rem) !important;
   }
 }

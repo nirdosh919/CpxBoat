@@ -20,61 +20,61 @@ const solutions = [
   {
     icon: ShoppingCart,
     title: "E-commerce",
-    text: "Keep customers informed with order updates, notifications, campaigns and automated communication.",
+    text: "Send order updates and campaign messages, and give shoppers a place to ask questions on WhatsApp.",
     points: [
-      "Order communication",
-      "Customer engagement",
-      "Automated notifications",
+      "Order and delivery updates",
+      "Product questions",
+      "Campaign messages",
     ],
   },
   {
     icon: Store,
     title: "Retail & D2C",
-    text: "Create consistent customer communication across campaigns, support and everyday business interactions.",
+    text: "Keep customer chats, product enquiries and promotional messages easier for your team to manage.",
     points: [
-      "Customer conversations",
+      "Shared customer conversations",
       "Promotional campaigns",
-      "Contact management",
+      "Contact tags and segments",
     ],
   },
   {
     icon: Building2,
     title: "Professional Services",
-    text: "Organize client communication and automate routine updates while keeping teams aligned.",
+    text: "Keep client enquiries and follow-up messages in a shared inbox instead of separate team chats.",
     points: [
-      "Client notifications",
-      "Workflow automation",
-      "Communication tracking",
+      "Client enquiries",
+      "Assigned conversations",
+      "Follow-up reminders",
     ],
   },
   {
     icon: GraduationCap,
     title: "Education",
-    text: "Simplify communication between institutions, students and customers through structured messaging workflows.",
+    text: "Use WhatsApp to share routine announcements and respond to common student or parent questions.",
     points: [
-      "Student communication",
-      "Important notifications",
-      "Automated follow-ups",
+      "Student and parent updates",
+      "Class or event reminders",
+      "Replies to common questions",
     ],
   },
   {
     icon: HeartPulse,
     title: "Healthcare",
-    text: "Structure patient-facing communication and routine notifications through centralized workflows.",
+    text: "Organize general service messages, such as appointment reminders, through your business messaging workflow.",
     points: [
-      "Appointment communication",
-      "Patient updates",
-      "Automated reminders",
+      "Appointment reminders",
+      "General service updates",
+      "Follow-up messages",
     ],
   },
   {
     icon: Users,
     title: "Growing Teams",
-    text: "Give customer-facing teams a shared workspace for communication, automation and reporting.",
+    text: "Give teammates a shared place to review customer chats, assign replies and check campaign activity.",
     points: [
-      "Team collaboration",
-      "Shared customer context",
-      "Performance visibility",
+      "Shared inbox",
+      "Chat assignment",
+      "Campaign status and reports",
     ],
   },
 ];
@@ -109,17 +109,18 @@ export default function Solutions() {
           <div className="relative mx-auto max-w-4xl text-center">
             <div className="mx-auto mb-6 flex w-fit items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm text-cyan-300">
               <Sparkles size={16} />
-              Solutions built around your workflow
+              WhatsApp workflows for daily customer communication
             </div>
 
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-              Communication solutions
-              <span className="block text-cyan-400">for every business.</span>
+              Bring customer messages
+              <span className="block text-cyan-400">into one team workflow.</span>
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-400">
-              Connect with customers, automate routine communication and bring
-              your business messaging workflows into one organized platform.
+              CPXBoat can help your team handle WhatsApp chats, organize
+              contacts, prepare campaigns and keep follow-ups visible. Here are
+              a few examples of how different teams might use it.
             </p>
           </div>
         </section>
@@ -171,24 +172,25 @@ export default function Solutions() {
             <div className="mx-auto w-full max-w-5xl text-center">
 
               <p className="text-sm font-semibold uppercase tracking-[0.18em] text-cyan-400">
-                Built for scale
+                Keep the workflow practical
               </p>
 
               <h2 className="mx-auto mt-4 max-w-5xl text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-[52px]">
-                One communication layer for your business.
+                A clearer view of chats, campaigns and follow-ups.
               </h2>
 
               <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-slate-400 sm:text-lg">
-                CPXBoat helps teams bring messaging, automation, customer
-                conversations and analytics into a single operational workflow.
+                Start with the work your team already does: receive a message,
+                assign it, reply and follow up. CPXBoat brings inbox and
+                campaign tools together to support that process.
               </p>
 
               <div className="mx-auto mt-8 flex max-w-4xl flex-wrap justify-center gap-x-8 gap-y-4">
                 {[
-                  "Centralize customer communication",
-                  "Automate repetitive workflows",
-                  "Track communication performance",
-                  "Connect your existing technology stack",
+                  "Review incoming WhatsApp chats",
+                  "Assign conversations to teammates",
+                  "Prepare campaigns and check delivery",
+                  "Keep contact details organized",
                 ].map((item) => (
                   <div key={item} className="flex items-center gap-3">
                     <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-cyan-400/10 text-cyan-400">
@@ -209,23 +211,23 @@ export default function Solutions() {
               {[
                 {
                   icon: Code2,
-                  title: "Developer Ready",
-                  text: "Connect APIs and integrate communication into your existing applications.",
+                  title: "API access",
+                  text: "Ask the team whether API access is included in your plan and what setup it requires.",
                 },
                 {
                   icon: Database,
-                  title: "Centralized Data",
-                  text: "Keep customer and communication information organized in one workspace.",
+                  title: "Contact management",
+                  text: "Use contact records, tags and segments to organize the people your team messages.",
                 },
                 {
                   icon: ShieldCheck,
-                  title: "Business Controls",
-                  text: "Create structured workflows for teams, campaigns and communication.",
+                  title: "Team inbox",
+                  text: "Review incoming chats together and assign conversations to an agent.",
                 },
                 {
                   icon: Globe,
-                  title: "Built for Growth",
-                  text: "Design communication systems that can evolve with your business.",
+                  title: "Campaign reporting",
+                  text: "Check campaign status and delivery information from the dashboard.",
                 },
               ].map((item) => {
                 const Icon = item.icon;
@@ -257,11 +259,11 @@ export default function Solutions() {
                 <div className="flex items-center justify-between border-b border-white/10 pb-5">
                   <div className="text-left">
                     <p className="text-sm font-semibold text-white">
-                      Business Workflow
+                      Example messaging workflow
                     </p>
 
                     <p className="mt-1 text-xs text-slate-500">
-                      Connected communication flow
+                      A typical customer enquiry
                     </p>
                   </div>
 
@@ -270,10 +272,10 @@ export default function Solutions() {
 
                 <div className="mt-6 grid gap-3">
                   {[
-                    "Customer message received",
-                    "Workflow identifies the request",
-                    "Automated response is triggered",
-                    "Activity becomes available for reporting",
+                    "A customer sends a WhatsApp message",
+                    "The team reviews and assigns the chat",
+                    "An agent replies or uses a saved template",
+                    "The team records the next follow-up",
                   ].map((step, index) => (
                     <div
                       key={step}
@@ -303,26 +305,32 @@ export default function Solutions() {
             </div>
 
             <h2 className="mt-6 text-3xl font-bold">
-              Find the right workflow for your business.
+              See whether CPXBoat fits your team.
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl text-slate-400">
-              Start with the communication tools your team needs and build from
-              there.
+              Ask us about plans, WhatsApp setup or the features your team needs.
             </p>
 
-            <a
-              href={CPXBOAT_SIGNUP_URL}
-              className="mt-8 inline-flex items-center gap-2 rounded-xl bg-cyan-400 px-6 py-3 font-semibold text-black transition hover:bg-cyan-300"
-            >
-              Get Started
-              <ArrowRight size={18} />
-            </a>
+            <div className="mt-8 flex flex-wrap justify-center gap-3">
+              <a
+                href={CPXBOAT_SIGNUP_URL}
+                className="inline-flex items-center gap-2 rounded-xl bg-cyan-400 px-6 py-3 font-semibold text-black transition hover:bg-cyan-300"
+              >
+                Get Started
+                <ArrowRight size={18} />
+              </a>
+              <a
+                href="/"
+                className="inline-flex items-center gap-2 rounded-xl border border-white/15 px-6 py-3 font-semibold text-slate-200 transition hover:bg-white/5 hover:text-white"
+              >
+                Home
+                <ArrowRight size={18} />
+              </a>
+            </div>
           </div>
         </section>
       </main>
     </div>
   );
 }
-
-

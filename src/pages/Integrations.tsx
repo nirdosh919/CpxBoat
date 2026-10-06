@@ -21,67 +21,67 @@ const integrations = [
     icon: MessageSquare,
     title: "WhatsApp Business API",
     description:
-      "Connect WhatsApp communication workflows with your customer conversations, campaigns, and support processes.",
-    tags: ["Messaging", "Templates", "Automation"],
+      "Use WhatsApp Business messaging for customer conversations and campaign messages. Account setup and eligibility may apply.",
+    tags: ["Messaging", "Campaigns", "Templates"],
   },
   {
     icon: Code2,
     title: "REST API",
     description:
-      "Build custom integrations and connect CPXBoat capabilities with your own applications and backend systems.",
-    tags: ["API", "Developer", "Custom"],
+      "If API access is enabled for your account, your developers can explore connecting CPXBoat with internal tools.",
+    tags: ["API access", "Custom setup", "Availability varies"],
   },
   {
     icon: Webhook,
     title: "Webhooks",
     description:
-      "Send real-time events to your systems and keep customer communication workflows synchronized.",
-    tags: ["Events", "Real-time", "Automation"],
+      "Ask the CPXBoat team whether webhook events are available for your plan and which events can be configured.",
+    tags: ["Events", "Plan dependent", "Setup required"],
   },
   {
     icon: Database,
     title: "CRM & Customer Data",
     description:
-      "Connect customer records and communication workflows with the systems your team already uses.",
-    tags: ["CRM", "Contacts", "Data"],
+      "Discuss how contact data is handled and whether your existing CRM can be connected to your CPXBoat setup.",
+    tags: ["Contacts", "CRM", "Confirm availability"],
   },
   {
     icon: BarChart3,
     title: "Analytics",
     description:
-      "Move communication and campaign data into your reporting workflows for deeper business analysis.",
-    tags: ["Reports", "Metrics", "Insights"],
+      "Review the campaign and messaging reports available in CPXBoat, and ask about exporting data if needed.",
+    tags: ["Campaigns", "Reports", "Data"],
   },
   {
     icon: Blocks,
     title: "Business Systems",
     description:
-      "Create a connected workflow between communication, operations, commerce, and internal business tools.",
-    tags: ["Business", "Workflow", "Systems"],
+      "Describe the business tools you use and ask the team what connection options are supported.",
+    tags: ["Business tools", "Workflow", "Confirm options"],
   },
   {
     icon: Send,
     title: "Communication Channels",
     description:
-      "Design workflows around messaging channels and keep customer communication organized from one platform.",
-    tags: ["Messaging", "Channels", "Engagement"],
+      "Ask which messaging channels are available for your account; channel support can vary by plan and setup.",
+    tags: ["Messaging", "Channel options", "Plan dependent"],
   },
   {
     icon: Bot,
     title: "AI Workflows",
     description:
-      "Connect AI-assisted workflows with your communication processes to support faster customer interactions.",
-    tags: ["AI", "Automation", "Support"],
+      "Some plans list AI-assisted tools. Contact the team to confirm which tools are included and how they can be used.",
+    tags: ["AI tools", "Plan dependent", "Confirm details"],
   },
 ];
 
 const capabilities = [
-  "Connect your existing business systems",
-  "Create event-driven workflows",
-  "Sync customer and communication data",
-  "Build custom API integrations",
-  "Automate repetitive processes",
-  "Keep workflows scalable as your business grows",
+  "Confirm which connections are available for your account",
+  "Ask about API or webhook access for your plan",
+  "Review how contact data can be used",
+  "Discuss any custom integration requirements",
+  "Check setup needs before planning a workflow",
+  "Confirm limits and support with the CPXBoat team",
 ];
 
 export default function Integrations() {
@@ -117,21 +117,21 @@ export default function Integrations() {
           <div className="mx-auto max-w-5xl text-center">
             <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm text-cyan-300">
               <Plug size={16} />
-              Connected workflows
+              Integration options
             </div>
 
             <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-7xl">
-              Connect your tools.
+              Ask how CPXBoat can connect.
               <br />
               <span className="bg-gradient-to-r from-cyan-300 via-blue-400 to-violet-400 bg-clip-text text-transparent">
-                Build your workflow.
+                Check what your plan supports.
               </span>
             </h1>
 
             <p className="mx-auto mt-7 max-w-2xl text-lg leading-8 text-slate-400">
-              Explore ways CPXBoat can fit into your communication workflows.
-              Contact our team to confirm which connections and setup options
-              are available for your account.
+              WhatsApp messaging is at the center of CPXBoat. Other integrations,
+              API access and setup options can depend on your plan—contact us
+              before planning around a specific connection.
             </p>
           </div>
         </section>
@@ -181,19 +181,19 @@ export default function Integrations() {
               </div>
 
               <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">
-                Flexible by design
+                Confirm before you integrate
               </p>
 
               <h2 className="mt-4 text-3xl font-bold tracking-tight sm:text-4xl">
-                Your stack.
+              Start with the tools
                 <br />
-                Your workflow.
+              your team already uses.
               </h2>
 
               <p className="mt-5 max-w-xl text-slate-400 leading-7">
-                CPXBoat is designed to fit into your existing technology
-                environment instead of forcing your team to rebuild everything
-                from scratch.
+                Share the systems and workflow you have in mind with the CPXBoat
+                team. They can confirm whether a direct connection is available
+                or whether another setup is needed.
               </p>
 
               <div className="mt-8 grid gap-4 sm:grid-cols-2">

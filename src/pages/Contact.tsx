@@ -5,13 +5,13 @@ import {
   MapPin,
   MessageSquare,
   Send,
-  Sparkles,
   User,
   Zap,
 } from "lucide-react";
 import { useState } from "react";
 import {
   CPXBOAT_CONTACT_EMAIL,
+  CPXBOAT_CONTACT_ADDRESS,
   CPXBOAT_CONTACT_PHONE,
   CPXBOAT_CONTACT_PHONE_DISPLAY,
 } from "../platformLinks";
@@ -117,22 +117,12 @@ export default function Contact() {
 
               <div className="contact-info-card rounded-2xl border border-white/10 bg-white/[0.03] p-6">
                 <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-violet-400/10 text-violet-300">
-                  <Sparkles size={21} />
+                  <MapPin size={21} />
                 </div>
-                <h2 className="mt-5 text-lg font-semibold">What can we discuss?</h2>
-                <div className="mt-4 space-y-3 text-sm text-slate-400">
-                  {[
-                    "WhatsApp Business workflows",
-                    "Automation requirements",
-                    "API and integration questions",
-                    "Platform support",
-                  ].map((item) => (
-                    <div key={item} className="flex items-center gap-3">
-                      <CheckCircle2 size={16} className="text-cyan-300" />
-                      {item}
-                    </div>
-                  ))}
-                </div>
+                <h2 className="mt-5 text-lg font-semibold">Address</h2>
+                <p className="mt-3 text-sm leading-6 text-slate-400">
+                  {CPXBOAT_CONTACT_ADDRESS}
+                </p>
               </div>
             </div>
 
@@ -281,6 +271,15 @@ export default function Contact() {
                   <p className="mt-2 text-sm leading-6 text-slate-500">{text}</p>
                 </div>
               ))}
+            </div>
+            <div className="mt-10 flex justify-center">
+              <a
+                href="/"
+                className="inline-flex items-center gap-2 rounded-xl border border-white/15 px-6 py-3 font-semibold text-slate-200 transition hover:bg-white/5 hover:text-white"
+              >
+                Home
+                <ArrowRight size={18} />
+              </a>
             </div>
           </div>
         </section>

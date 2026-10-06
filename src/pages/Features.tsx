@@ -21,58 +21,58 @@ const features = [
   {
     icon: MessageCircle,
     title: "WhatsApp Business API",
-    text: "Organize business conversations, customer notifications and day-to-day messaging in one workspace.",
+    text: "Review incoming WhatsApp conversations in a shared inbox and assign chats to the right teammate.",
     detail: "Messaging",
   },
   {
     icon: Send,
     title: "Campaigns & broadcasts",
-    text: "Plan WhatsApp campaigns, manage templates and review recipient and delivery information.",
+    text: "Prepare broadcasts with message templates, select recipients and check delivery activity.",
     detail: "Campaigns",
   },
   {
     icon: Workflow,
     title: "Customer follow-up",
-    text: "Keep follow-ups organized and give customers a clear next step after every conversation.",
+    text: "Keep track of customer chats that need another reply or a follow-up.",
     detail: "Workflows",
   },
   {
     icon: Bot,
     title: "Chatbot tools",
-    text: "Support common customer journeys with chatbot features and structured conversation flows.",
+    text: "Use chatbot flows to handle common questions and guide routine conversations.",
     detail: "Automation",
   },
   {
     icon: Users,
     title: "Team inbox & assignment",
-    text: "Review conversations together and assign customer chats to the right team member.",
+    text: "Give teammates a shared view of incoming chats and make conversation ownership clearer.",
     detail: "Team inbox",
   },
   {
     icon: Sparkles,
     title: "Lead labels",
-    text: "Use hot, warm and cold lead labels to help your team prioritize customer follow-up.",
+    text: "Label leads so the team can sort contacts and decide which conversations to follow up on.",
     detail: "Lead management",
   },
   {
     icon: BarChart3,
     title: "Messaging insights",
-    text: "See messaging performance, campaign activity and delivery status in your dashboard.",
+    text: "Check campaign activity and delivery status in the dashboard.",
     detail: "Analytics",
   },
   {
     icon: Settings2,
     title: "Business controls",
-    text: "Manage communication settings and operational workflows from a single place.",
+    text: "Manage workspace settings and the communication tools your team uses.",
     detail: "Workspace",
   },
 ];
 
 const outcomes = [
-  "See conversations, campaigns and customer follow-ups together",
-  "Help agents organize chats and prioritize incoming leads",
-  "Review recipients, campaign costs and delivery status",
-  "Keep everyday messaging tasks in one shared workspace",
+  "Review WhatsApp conversations from a shared inbox",
+  "Assign chats and label contacts for follow-up",
+  "Prepare campaigns and check recipient and delivery details",
+  "Keep messaging tasks together in the CPXBoat workspace",
 ];
 
 export default function Features() {
@@ -92,11 +92,11 @@ export default function Features() {
         <section className="fp-hero">
           <div className="fp-hero-glow" />
           <div className="fp-container fp-hero-inner">
-            <span className="fp-eyebrow"><Sparkles size={15} /> A closer look at CPXBoat</span>
-            <h1 className="fp-hero-title">Everything your team needs to <span>move conversations forward.</span></h1>
+            <span className="fp-eyebrow"><Sparkles size={15} /> CPXBoat features</span>
+            <h1 className="fp-hero-title">Manage WhatsApp chats, contacts and <span>campaigns in one place.</span></h1>
             <p className="fp-hero-description">
-              Explore the CPXBoat tools for WhatsApp messaging, campaigns, team
-              inbox and customer follow-up—all in one place.
+              See how the shared inbox, contact tools, templates and campaign
+              reporting can fit into your team’s day-to-day messaging.
             </p>
             <div className="fp-hero-actions">
               <a className="fp-button fp-button-primary" href={CPXBOAT_SIGNUP_URL}>Get started <ArrowRight size={17} /></a>
@@ -112,7 +112,7 @@ export default function Features() {
                 src="/dashboard-reference.png"
                 alt="CPXBoat messaging dashboard with campaign activity and analytics"
               />
-              <div className="fp-preview-caption"><ShieldCheck size={15} /> A unified view of your CPXBoat communication workspace</div>
+              <div className="fp-preview-caption"><ShieldCheck size={15} /> An example view of the CPXBoat workspace</div>
             </div>
           </div>
         </section>
@@ -120,9 +120,9 @@ export default function Features() {
         <section className="fp-feature-section" id="feature-list">
           <div className="fp-container">
             <div className="fp-section-heading">
-              <span className="fp-section-kicker">The CPXBoat toolkit</span>
-              <h2 className="fp-section-title">The tools behind <span>better follow-up.</span></h2>
-              <p>Practical features to help teams organize WhatsApp communication and customer engagement.</p>
+              <span className="fp-section-kicker">What’s in the workspace</span>
+              <h2 className="fp-section-title">Tools for everyday <span>WhatsApp work.</span></h2>
+              <p>Use the features that match how your team handles chats, contacts and campaign messages.</p>
             </div>
             <div className="fp-feature-grid">
               {features.map(({ icon: Icon, title, text, detail }) => (
@@ -133,7 +133,7 @@ export default function Features() {
                   </div>
                   <h3>{title}</h3>
                   <p>{text}</p>
-                  <span className="fp-feature-included"><Check size={14} /> Part of the CPXBoat platform</span>
+                  <span className="fp-feature-included"><Check size={14} /> Availability depends on your plan</span>
                 </article>
               ))}
             </div>
@@ -143,9 +143,9 @@ export default function Features() {
         <section className="fp-workspace-section">
           <div className="fp-container fp-workspace-layout">
             <div className="fp-workspace-copy">
-              <span className="fp-section-kicker">One connected workspace</span>
-              <h2 className="fp-section-title">From first message to <span>next action.</span></h2>
-              <p>CPXBoat brings your customer messaging and campaign work into a clearer shared view, so teams can focus on the next helpful step.</p>
+              <span className="fp-section-kicker">A shared view for your team</span>
+              <h2 className="fp-section-title">Keep the conversation and <span>follow-up in view.</span></h2>
+              <p>Use the inbox to review incoming messages and assignments, then use campaign tools to plan and check outbound messages.</p>
               <ul className="fp-outcome-list">
                 {outcomes.map((outcome) => <li key={outcome}><span><Check size={15} /></span>{outcome}</li>)}
               </ul>
@@ -154,8 +154,8 @@ export default function Features() {
             <div className="fp-overview-card">
               <div className="fp-overview-heading">
                 <span className="fp-overview-icon"><BarChart3 size={20} /></span>
-                <span><strong>Messaging overview</strong><small>Your communication workspace</small></span>
-                <span className="fp-live-badge"><span /> Live workspace</span>
+                <span><strong>Messaging overview</strong><small>Example workspace view</small></span>
+                <span className="fp-live-badge"><span /> Dashboard preview</span>
               </div>
               <div className="fp-overview-metrics">
                 <div><span>CHANNEL</span><strong><MessageCircle size={16} /> WhatsApp</strong><small>Business conversations</small></div>
@@ -168,7 +168,7 @@ export default function Features() {
                 <div className="fp-workflow-line"><span className="fp-workflow-dot green" /><span>Assign to the right team member</span><Check size={15} /></div>
                 <div className="fp-workflow-line"><span className="fp-workflow-dot blue" /><span>Review lead and follow-up status</span><ArrowRight size={15} /></div>
               </div>
-              <div className="fp-overview-footer"><Database size={14} /> Keep customer communication connected</div>
+              <div className="fp-overview-footer"><Database size={14} /> Review messaging and campaign activity</div>
             </div>
           </div>
         </section>
@@ -176,10 +176,13 @@ export default function Features() {
         <section className="fp-cta-section">
           <div className="fp-container fp-cta">
             <span className="fp-cta-icon"><Zap size={21} /></span>
-            <span className="fp-section-kicker">Made for customer conversations</span>
-            <h2 className="fp-section-title">Ready to explore <span>CPXBoat?</span></h2>
-            <p>Bring your messaging, campaigns and follow-up workflows together.</p>
-            <a className="fp-button fp-button-primary" href={CPXBOAT_SIGNUP_URL}>Get started <ArrowRight size={17} /></a>
+            <span className="fp-section-kicker">Take a closer look</span>
+            <h2 className="fp-section-title">See whether CPXBoat <span>fits your workflow.</span></h2>
+            <p>Explore the platform or contact the team with questions about setup and plan availability.</p>
+            <div className="fp-hero-actions">
+              <a className="fp-button fp-button-primary" href={CPXBOAT_SIGNUP_URL}>Get started <ArrowRight size={17} /></a>
+              <a className="fp-button fp-button-secondary" href="/">Home <ArrowRight size={16} /></a>
+            </div>
           </div>
         </section>
       </main>

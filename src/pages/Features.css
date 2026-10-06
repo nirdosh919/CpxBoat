@@ -43,6 +43,7 @@ html:has(.features-page) body { min-width: 0 !important; }
 .features-page .fp-back-link:hover { color: var(--fp-green) !important; }
 
 .features-page .fp-main { width: 100%; }
+.features-page main { text-align: center; }
 .features-page .fp-hero {
   position: relative;
   isolation: isolate;
@@ -142,7 +143,7 @@ html:has(.features-page) body { min-width: 0 !important; }
 
 .features-page .fp-workspace-section { padding: 80px 0; border-top: 1px solid #e5eaf0; border-bottom: 1px solid #e5eaf0; background: #fff; }
 .features-page .fp-workspace-layout { display: grid; grid-template-columns: .88fr 1.12fr; align-items: center; gap: 64px; }
-.features-page .fp-workspace-copy > .fp-section-title { max-width: 440px !important; margin: 12px 0 !important; text-align: left !important; }
+.features-page .fp-workspace-copy > .fp-section-title { max-width: 700px !important; margin: 12px auto !important; text-align: center !important; }
 .features-page .fp-workspace-copy > p { max-width: 455px; margin: 0; color: var(--fp-muted) !important; font-size: 12px; }
 .features-page .fp-outcome-list { display: grid; gap: 12px; margin: 22px 0; padding: 0; list-style: none; }
 .features-page .fp-outcome-list li { display: flex; align-items: start; gap: 9px; color: #4f5d72; font-size: 10px; line-height: 1.6; }

@@ -6,50 +6,78 @@ import {
   Sparkles,
   Zap,
 } from "lucide-react";
-import { CPXBOAT_SIGNUP_URL } from "../platformLinks";
+import { CPXBOAT_LOGIN_URL } from "../platformLinks";
 
 const plans = [
   {
+    name: "Free",
+    description: "Try the core workspace at no monthly charge.",
+    price: "₹0",
+    period: "",
+    features: [
+      "1 WhatsApp number",
+      "50 contacts",
+      "1 agent",
+      "1 bot flow",
+      "Basic keyword auto-replies",
+      "Team inbox",
+      "Community support",
+    ],
+    highlighted: false,
+  },
+  {
     name: "Starter",
-    description: "For small teams getting started with business communication.",
+    description: "For small teams getting started with WhatsApp campaigns.",
     price: "₹999",
     period: "/month",
     features: [
-      "WhatsApp communication workspace",
-      "Contact management",
-      "Basic campaign tools",
-      "Message templates",
-      "Basic activity reporting",
+      "1 WhatsApp number",
+      "5,000 contacts",
+      "3 agents",
+      "10 bot flows",
+      "Broadcasts and campaigns",
+      "Keyword auto-replies",
+      "Contact tags and segments",
+      "Media library",
+      "Email support",
     ],
     highlighted: false,
   },
   {
     name: "Growth",
-    description: "For growing businesses managing more communication workflows.",
-    price: "₹2,499",
+    description: "For teams handling more contacts and follow-up activity.",
+    price: "₹1,499",
     period: "/month",
     features: [
       "Everything in Starter",
-      "Campaign management",
-      "Workflow automation",
-      "Advanced analytics",
-      "Team communication tools",
-      "Priority workflow controls",
+      "25,000 contacts",
+      "10 agents",
+      "Unlimited bot flows",
+      "AI chatbot and knowledge base",
+      "Drip campaigns and auto follow-ups",
+      "Sales pipeline",
+      "WhatsApp forms and appointment booking",
+      "Analytics dashboard",
+      "Priority support",
     ],
     highlighted: true,
   },
   {
     name: "Business",
-    description: "For teams that need a more structured communication operation.",
-    price: "Custom",
-    period: "",
+    description: "For teams that need higher contact and agent limits.",
+    price: "₹1,999",
+    period: "/month",
     features: [
       "Everything in Growth",
-      "Advanced business workflows",
-      "Custom communication setup",
-      "Expanded team controls",
-      "Integration support",
-      "Dedicated onboarding",
+      "Unlimited contacts and agents",
+      "Omni-channel inbox",
+      "AI voice calling assistant",
+      "Product catalog and e-commerce chat",
+      "REST API and webhooks access",
+      "CTWA ads and Facebook lead sync",
+      "Custom fields and advanced segments",
+      "Real-time analytics",
+      "24x7 priority support",
     ],
     highlighted: false,
   },
@@ -57,16 +85,16 @@ const plans = [
 
 const faqs = [
   {
-    q: "Are these the final CPXBoat prices?",
-    a: "The pricing displayed on this page is illustrative for the website experience. Final commercial pricing can be configured according to your actual CPXBoat plans.",
+    q: "Are these monthly prices?",
+    a: "The prices shown are monthly rates. Check with the CPXBoat team for current billing options, taxes and any plan terms before subscribing.",
   },
   {
-    q: "Can I change my plan later?",
-    a: "Your plan structure can be designed to support upgrades or changes as your communication requirements grow.",
+    q: "What is included in each plan?",
+    a: "Each plan lists its included contact, agent and feature limits above. Some tools and limits vary by plan.",
   },
   {
-    q: "Does every plan include the same features?",
-    a: "No. Features can be organized into different tiers so businesses can select the capabilities that match their operational requirements.",
+    q: "Need help choosing a plan?",
+    a: "Contact the CPXBoat team with your expected contact volume and team size, and ask which plan fits your needs.",
   },
 ];
 
@@ -101,27 +129,27 @@ export default function Pricing() {
           <div className="relative mx-auto max-w-4xl text-center">
             <div className="mx-auto mb-6 flex w-fit items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm text-cyan-300">
               <Sparkles size={16} />
-              Flexible plans for different business needs
+              CPXBoat plans
             </div>
 
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-              Simple pricing.
-              <span className="block text-cyan-400">Flexible communication.</span>
+              Choose a plan for
+              <span className="block text-cyan-400">your WhatsApp workflow.</span>
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-400">
-              Choose a plan structure that fits your communication volume,
-              workflows and team requirements.
+              Compare contact and agent limits, campaign tools and support
+              options to find a starting point for your team.
             </p>
 
             <p className="mt-5 text-xs text-slate-500">
-              Demo pricing shown for website presentation.
+              Monthly prices shown. Please confirm current billing terms with our team.
             </p>
           </div>
         </section>
 
         <section className="px-6 pb-24">
-          <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-3">
+          <div className="mx-auto grid max-w-7xl gap-5 sm:grid-cols-2 xl:grid-cols-4">
             {plans.map((plan) => (
               <div
                 key={plan.name}
@@ -161,20 +189,22 @@ export default function Pricing() {
                 </div>
 
                 <a
-                  href={plan.name === "Business" ? "/contact" : CPXBOAT_SIGNUP_URL}
+                  href={CPXBOAT_LOGIN_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`mt-7 flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold transition ${
                     plan.highlighted
                       ? "bg-cyan-400 text-black hover:bg-cyan-300"
                       : "border border-white/10 text-white hover:bg-white/5"
                   }`}
                 >
-                  {plan.name === "Business" ? "Contact Team" : "Get Started"}
+                  Get started
                   <ArrowRight size={16} />
                 </a>
 
                 <div className="mt-8 border-t border-white/10 pt-6">
                   <p className="text-xs font-semibold uppercase tracking-widest text-slate-500">
-                    Includes
+                    Plan features
                   </p>
 
                   <div className="mt-5 space-y-4">
@@ -199,32 +229,32 @@ export default function Pricing() {
         <section className="border-y border-white/10 bg-white/[0.02] px-6 py-20">
           <div className="mx-auto max-w-5xl text-center">
             <p className="text-sm font-semibold uppercase tracking-widest text-cyan-400">
-              Built to adapt
+              As your team’s needs change
             </p>
 
             <h2 className="mt-4 text-3xl font-bold sm:text-4xl">
-              Your communication needs can evolve.
+              Start with the limits that fit today.
             </h2>
 
             <p className="mx-auto mt-5 max-w-2xl leading-7 text-slate-400">
-              Start with the capabilities your team needs today and expand your
-              workflow as your business communication operation becomes more
-              sophisticated.
+              Compare your contact volume and number of agents with the plan
+              limits above. Contact us if you need help understanding which
+              features or billing options fit your setup.
             </p>
 
             <div className="mt-10 grid gap-4 text-left md:grid-cols-3">
               {[
                 {
                   title: "Start",
-                  text: "Set up your core communication workspace.",
+                  text: "Choose a plan based on your contact and agent limits.",
                 },
                 {
                   title: "Automate",
-                  text: "Introduce workflows for repetitive processes.",
+                  text: "Use campaign and follow-up tools included in your plan.",
                 },
                 {
                   title: "Scale",
-                  text: "Add advanced controls and reporting.",
+                  text: "Ask the team about options as your requirements change.",
                 },
               ].map((item, index) => (
                 <div
@@ -252,7 +282,7 @@ export default function Pricing() {
               <HelpCircle className="mx-auto text-cyan-400" size={28} />
 
               <h2 className="mt-4 text-3xl font-bold">
-                Pricing questions
+                Plan questions
               </h2>
             </div>
 
@@ -275,21 +305,32 @@ export default function Pricing() {
         <section className="px-6 pb-24">
           <div className="mx-auto max-w-4xl rounded-3xl border border-cyan-400/20 bg-cyan-400/[0.05] p-8 text-center sm:p-12">
             <h2 className="text-3xl font-bold">
-              Ready to explore CPXBoat?
+              Want to look at CPXBoat?
             </h2>
 
             <p className="mx-auto mt-4 max-w-2xl text-slate-400">
-              Start building a communication workflow around the tools your
-              business needs.
+              Sign in to the platform or contact our team if you have a question
+              about a plan or its limits.
             </p>
 
-            <a
-              href={CPXBOAT_SIGNUP_URL}
-              className="mt-8 inline-flex items-center gap-2 rounded-xl bg-cyan-400 px-6 py-3 font-semibold text-black transition hover:bg-cyan-300"
-            >
-              Get Started
-              <ArrowRight size={18} />
-            </a>
+            <div className="mt-8 flex flex-wrap justify-center gap-3">
+              <a
+                href={CPXBOAT_LOGIN_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl bg-cyan-400 px-6 py-3 font-semibold text-black transition hover:bg-cyan-300"
+              >
+                Log in to CPXBoat
+                <ArrowRight size={18} />
+              </a>
+              <a
+                href="/"
+                className="inline-flex items-center gap-2 rounded-xl border border-white/15 px-6 py-3 font-semibold text-slate-200 transition hover:bg-white/5 hover:text-white"
+              >
+                Home
+                <ArrowRight size={18} />
+              </a>
+            </div>
           </div>
         </section>
       </main>

@@ -344,11 +344,6 @@ textarea::placeholder{
   box-shadow:0 25px 70px rgba(76,29,149,.10)!important;
 }
 
-/* Hide theme switch */
-button[aria-label="Toggle theme"]{
-  display:none!important;
-}
-
 /* Smooth premium feel */
 *{
   scrollbar-color:#c4b5fd #faf9ff;
@@ -3365,7 +3360,6 @@ section h2 {
 #features > div:nth-child(2) {
   margin-top: 55px !important;
 }
-
 
 
 
